@@ -9,7 +9,7 @@ import config from '../config';
 
 const UserLogin = ({ onUserLogin }) => {
  
-  const [formData, setFormData] = useState({
+  const [formData] = useState({
     email: '',
     password: ''
   });
@@ -56,7 +56,7 @@ const UserLogin = ({ onUserLogin }) => {
     <div>
       <div className="fullscreen-video">  
         <div className='ph'>
-          <img src={REG} alt="Login Image" />
+          <img src={REG} alt="text" />
         </div>
         <div className='main'>
           <div id="lp" className="login-page1">

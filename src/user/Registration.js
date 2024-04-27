@@ -34,24 +34,24 @@ const Registration = () => {
   const validatePassword = (password) => {
     const minLength = 8; // Minimum password length
     const hasNumber = /\d/.test(password); // Check for at least one digit
-    const hasSpecialChar = /[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?~]/.test(password); // Check for at least one special character
+    const hasSpecialChar = /[!@#$%^&*()_+\-=\]{};':"\\|,.<>?~]/.test(password); // Check for at least one special character
 
     return password.length >= minLength && hasNumber && hasSpecialChar;
   };
 
-  const validatePhoneNumber = (contact) => {
-    const minLength = 10; // Minimum phone number length
-    const isNumeric = /^\d+$/.test(contact); // Check for all digits
+  // const validatePhoneNumber = (contact) => {
+  //   const minLength = 10; // Minimum phone number length
+  //   const isNumeric = /^\d+$/.test(contact); // Check for all digits
   
-    return contact.length >= minLength && isNumeric;
-  };
+  //   return contact.length >= minLength && isNumeric;
+  // };
   
 
   const handleSubmit = async (e) => 
   {
     e.preventDefault();
     const { password } = formData;
-    const { contact} = formData;
+    // const { contact} = formData;
     
     if (!validatePassword(password)) {
       setError('Password must be at least 8 characters long and include at least one number and one special character.');
@@ -92,7 +92,8 @@ const Registration = () => {
     <div>
       <div className="fullscreen-video">  
         <div className='ph'>
-        <img src={reg} alt="Registration Image" />
+        
+        <img src={reg} alt='text'/>
         </div>
         <div className='main'>
           <div id="lp" className="login-page2">
@@ -128,8 +129,7 @@ const Registration = () => {
                     borderRadius: '40px',
                   }}
                   
-                  id="email"
-                  placeholder="  Enter Email"
+                  
                 
                 />
               </div>

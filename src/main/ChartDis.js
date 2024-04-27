@@ -5,7 +5,7 @@ import Chart from "react-apexcharts";
 
 
 function ChartDis() {
-  const [state, setState] = useState({
+  const [state] = useState({
     options: {
       chart: {
         id: "basic-bar"
