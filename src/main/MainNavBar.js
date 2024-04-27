@@ -13,12 +13,6 @@ import { animated, useSpring } from 'react-spring'; // Import from react-spring
 import Forecast from './Forecast';
 import ChartDis from './ChartDis';
 
-
-
-
-
-
-
 export default function MainNavBar({ onAdminLogin,onUserLogin}) {
   const [text] = useState('Clima Cast'); // Text to animate
 
