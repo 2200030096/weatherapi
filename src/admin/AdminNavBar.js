@@ -2,11 +2,10 @@ import React from 'react'
 import { Route, Routes, Link } from 'react-router-dom'
 import './admin.css'
 import { useNavigate } from 'react-router-dom';
-
 import AdminHome from './AdminHome';
 import ViewUser from './ViewUsers';
 import AddWeather from './AddWeather';
-import config from '../config';
+
 
 
 export default function AdminNavBar() 

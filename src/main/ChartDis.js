@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Chart from "react-apexcharts";
-import config from'../config'
+
 //import './App.css'
 
 

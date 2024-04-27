@@ -1,6 +1,6 @@
 import React from 'react'
 import img7 from '../images/image2.jpg'
-import config from '../config';
+
 
 
 export default function AdminHome() {

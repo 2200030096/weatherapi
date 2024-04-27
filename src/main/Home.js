@@ -2,7 +2,7 @@ import React from 'react'
 // import REG from '../images/image2.jpg';
 import Air from '../images/one.webm';
 import './Home.css'
-import config from '../config';
+
 
 
 export default function Home() {

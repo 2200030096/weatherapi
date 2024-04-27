@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
-import { RiHome2Fill, RiUserFill, RiLoginBoxFill, RiRegisteredFill, RiAdminFill, RiSupportFill } from 'react-icons/ri'; // Import icons from React Icons
+import { RiHome2Fill,  RiLoginBoxFill, RiRegisteredFill, RiAdminFill } from 'react-icons/ri'; // Import icons from React Icons
 import Home from './Home';
 import Support from './Support';
 import './style.css';
@@ -12,7 +12,7 @@ import clima from "../images/image3.jpg"
 import { animated, useSpring } from 'react-spring'; // Import from react-spring
 import Forecast from './Forecast';
 import ChartDis from './ChartDis';
-import config from '../config';
+
 
 
 
